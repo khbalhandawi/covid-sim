@@ -16,7 +16,7 @@
 1	1	1
 
 [Duration of place closure by admin unit]
-364	364	364
+720	720	720
 
 [Place closure in administrative units rather than rings]
 0
@@ -37,7 +37,7 @@
 1
 
 [Duration of place closure]
-364
+720
 
 [Proportion of places remaining open after closure by place type]
 0	0	0.25	1
@@ -112,7 +112,7 @@
 1	1	1
 
 [Duration of household quarantine by admin unit]
-364	364	364
+720	720	720
 
 [Household quarantine trigger incidence per cell]
 0
@@ -121,7 +121,7 @@
 14
 
 [Duration of household quarantine policy]
-364
+720
 
 [Relative household contact rate after quarantine]
 1.5
@@ -136,7 +136,7 @@
 0.75
 
 [Individual level compliance with quarantine]
-1.0
+#1
 
 [Number of change times for levels of household quarantine]
 3
@@ -160,7 +160,7 @@
 0.75 0.75 0.75
 
 [Individual level compliance with quarantine over time]
-1.0 1.0 1.0
+#1 #1 #1
 
 [Household quarantine trigger incidence per cell over time]
 0 0 0
@@ -175,13 +175,13 @@
 1	1	1
 
 [Duration of case isolation by admin unit]
-364	364	364
+720	720	720
 
 [Case isolation trigger incidence per cell]
 0
 
 [Proportion of detected cases isolated]
-0.9
+#3
 
 [Delay to start case isolation]
 1
@@ -191,7 +191,7 @@
 7
 
 [Duration of case isolation policy]
-364
+720
 
 [Residual contacts after case isolation]
 0.25
@@ -213,7 +213,7 @@
 0.5 0.5 0.5 0.5 0.5
 
 [Proportion of detected cases isolated over time]
-0.9 0.9 0.9 0.9 0.9
+#3 #3 #3 #3 #3
 
 [Case isolation trigger incidence per cell over time]
 0 0 0 0 0
@@ -227,10 +227,10 @@
 0	0	0
 
 [Duration of social distancing]
-364
+720
 
 [Duration of social distancing by admin unit]
-364	364	364
+720	720	720
 
 [Trigger incidence per cell for social distancing]
 0
@@ -242,7 +242,7 @@
 1.25
 
 [Relative spatial contact rate given social distancing]
-0.1
+#2
 
 [Minimum radius for social distancing]
 1
@@ -297,7 +297,7 @@
 
 ////  Ideally want this to supercede "Relative spatial contact rate given social distancing", but need to preserved backwards compatibility for now.
 [Relative spatial contact rates over time given social distancing]
-0.1 0.1 0.1 0.1 0.1 0.1
+#2 #2 #2 #2 #2 #2
 
 [Relative household contact rates over time given enhanced social distancing]
 1 1 1 1 1 1

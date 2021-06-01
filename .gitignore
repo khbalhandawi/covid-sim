@@ -25,3 +25,6 @@ tests/*output*/
 *.exe
 *.out
 *.app
+.Rproj.user
+*.png
+data/output_files/
